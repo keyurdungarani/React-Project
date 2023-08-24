@@ -38,7 +38,7 @@ export default function Loginpage() {
             <input type="password" name="password" className="form-control"  placeholder="Password" value={password} onChange={(e) => { setpassword(e.target.value) }} id="exampleInputPassword1" />
           </div>
 
-          <button type="submit" className="btn btn-primary" onClick={handleSubmit} style={{ width: "390px", marginTop: "8px", marginBottom: "5px" }}>Login <i className="fa fa-sign-in"></i></button>
+          <button type="submit" className="btn btn-primary" onClick={handleSubmit} style={{ width: "-webkit-fill-available", marginTop: "8px", marginBottom: "5px" }}>Login <i className="fa fa-sign-in"></i></button>
           <h7><a href="/dashboard" style={{ textDecoration: "none", display: "flex", justifyContent: "flex-end" }}>Register</a> </h7>
         </form>
       </div>
